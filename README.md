@@ -1,128 +1,74 @@
-# StreetBazaar
+🚀 StreetBazaar – Empowering Street Vendors through Smart Raw Material Sourcing
 
-StreetBazaar is a web application that connects vendors with suppliers, providing a platform for product catalog browsing, order management, and seamless communication between parties.
+🧠 Problem Statement
+Street food vendors across India often face inconsistent access to quality raw materials, last-minute shortages, unfair pricing, and difficulty locating reliable suppliers. These issues disrupt daily operations and hurt their income, especially for small, mobile vendors with limited digital access.
 
-## Technologies Used
+💡 Our Solution – StreetBazaar
+StreetBazaar is a mobile-first full-stack web platform that bridges the gap between street vendors and local suppliers. It enables real-time access to raw materials, promotes localized trade, and ensures fair pricing and transparency.
 
-- Frontend:
-  - React 19
-  - Tailwind CSS
-  - Axios
-  - React Router DOM
-  - CRACO for configuration overrides
-- Backend:
-  - Python (details in backend/requirements.txt)
-  - FastAPI or Flask (assumed from typical Python backend, please adjust as needed)
+✅ Key Features
+🔐 Vendor & Supplier Auth: Separate login/signup flows
 
-## Project Structure
+📦 Post & Browse Raw Materials: Vendors can list needs; suppliers can offer stock
 
-- `frontend/`: React frontend application
-- `backend/`: Python backend server
-- `frontend/public/index.html`: Main HTML entry point for the React app
-- `frontend/src/`: React source code including components, styles, and utilities
-- `backend/server.py`: Backend server entry point
-- `backend/requirements.txt`: Python dependencies for backend
+📍 Location-Based Discovery: (Upcoming) Nearby suppliers auto-suggested to vendors
 
-## Setup Instructions
+📱 Optimized for Mobile Use: Fully responsive UI, tailored for street vendor accessibility
 
-### Prerequisites
+📈 Dashboard Ready: Real-time stats and listings management
 
-- Node.js (v16 or higher recommended)
-- Yarn or npm
-- Python 3.8 or higher
-- pip for Python package management
+🤝 Streamlined Communication: Vendors can directly reach trusted suppliers
 
-### Frontend Setup
+🌐 Live Demo
+Frontend: https://street-bazaar-1.onrender.com
 
-1. Navigate to the frontend directory:
+Backend API: https://street-bazaar.onrender.com
 
-   ```bash
-   cd frontend
-   ```
+🛠 Tech Stack
+Layer	Technology
+Frontend	React.js, Tailwind CSS, React Router
+Backend	FastAPI, Python, Uvicorn
+Database	MongoDB (via MongoDB Atlas)
+Hosting	Render (Full-stack deployment)
 
-2. Install dependencies:
+🔐 Credentials (Test Users)
+Role	Email	Password
+Vendor	rajesh.dosa@gmail.com demo123
+Supplier	delhi.agro@gmail.com	demo123
 
-   ```bash
-   yarn install
-   # or
-   npm install
-   ```
+🌟 What Makes StreetBazaar Unique?
+While most hackathon solutions focus on basic vendor listings, StreetBazaar is designed as a real-world startup MVP. We focus on:
 
-3. Start the development server:
+⚙️ Fully working code — no placeholders
 
-   ```bash
-   yarn start
-   # or
-   npm start
-   ```
+🧠 Built with user-first thinking, not just developer POV
 
-4. Open your browser and go to `http://localhost:3000` to view the app.
+📶 Ready for offline-first upgrades
 
-### Backend Setup
+🔄 Scalable backend architecture
 
-1. Navigate to the backend directory:
+🌍 Hyperlocal model with room for geographic scaling
 
-   ```bash
-   cd backend
-   ```
+📦 Folder Structure
 
-2. (Optional but recommended) Create and activate a virtual environment:
+/StreetBazaar
+├── backend       # FastAPI backend
+├── frontend      # React frontend (mobile-first)
+└── README.md     # This file
 
-   ```bash
-   python -m venv venv
-   # On Windows
-   venv\Scripts\activate
-   # On Unix or MacOS
-   source venv/bin/activate
-   ```
+🚀 Future Roadmap
+📍 Geo-location-based supplier suggestions
 
-3. Install backend dependencies:
+🎙️ Voice search for vendor listings
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+📲 Progressive Web App (PWA) with offline support
 
-4. Start the backend server:
+🧾 Digital invoices and payment integrations
 
-   ```bash
-   python server.py
-   ```
+🙌 Made With Love for India's Street Vendors 🇮🇳
+By solving a hyper-local but large-scale problem, StreetBazaar helps everyday food vendors become digitally empowered entrepreneurs.
 
-5. The backend server will typically run on `http://localhost:8000` (adjust if different).
-
-## Environment Variables
-
-- The frontend expects a `REACT_APP_BACKEND_URL` environment variable to point to the backend API URL.
-- You can create a `.env` file in the `frontend` directory with:
-
-  ```
-  REACT_APP_BACKEND_URL=http://localhost:8000
-  ```
-
-## Usage
-
-- Register as a vendor or supplier.
-- Browse the product catalog.
-- Vendors can add products to their cart and place orders.
-- Suppliers can manage orders and update statuses.
-
-## Build for Production
-
-To create a production build of the frontend:
-
-```bash
-cd frontend
-yarn build
-# or
-npm run build
-```
-
-The build output will be in the `frontend/build` directory.
-
-## License
-
-Specify your project license here.
-
----
-
-If you have any questions or need assistance, please contact the project maintainer.
+💬 Contact
+Built by: [Naveen Agarwal - Team Leader
+Dev Jhanwar and Garvit Rahoriya - Team Members ]
+📧 Email: [naveenagarwal7624@gmail.com]
